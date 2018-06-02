@@ -1,0 +1,2 @@
+export { RecipeDetailComponent } from './recipe-detail.component';
+//# sourceMappingURL=C:/Users/Neeraj Fernandes/Desktop/angular2/udemy/Prj-Components/backup1/Prj - Components/src/app/trees/recipe-detail/index.js.map
