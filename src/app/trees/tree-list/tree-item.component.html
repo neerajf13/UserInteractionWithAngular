@@ -1,0 +1,13 @@
+<a [routerLink]="[treeId]" class="list-group-item clearfix" routerLinkActive="active">
+  <div class="pull-left">
+    <h4 class="list-group-item-heading">{{tree.name}}</h4>
+    <p class="list-group-item-text">{{tree.description}}</p>
+  </div>
+
+
+  <span class="pull-right">
+      <img class=""
+           src="{{tree.imagePath}}"
+           style="max-height: 50px;"/>
+  </span>
+</a>

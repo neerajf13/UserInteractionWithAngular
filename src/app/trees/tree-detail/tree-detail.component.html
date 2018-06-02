@@ -1,0 +1,37 @@
+<div class="row">
+  <div class="col-xs-12">
+    <img src="{{selectedTree?.imagePath}}" alt="" class="img-responsive">
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <h1>{{selectedTree?.name}}</h1>
+  </div>
+</div>
+<hr>
+<div class="row">
+  <div class="col-xs-12">
+    <p>{{selectedTree?.description}}</p>
+  </div>
+</div>
+
+<hr>
+
+<div *ngIf="treeIndex==0">
+  <aot-tree-display></aot-tree-display>
+</div>
+
+
+<div *ngIf="treeIndex==1">
+  <aot-tree-display-1></aot-tree-display-1>
+</div>
+
+
+<div *ngIf="treeIndex==2">
+  <aot-tree-display-2></aot-tree-display-2>
+</div>
+
+
+<div *ngIf="treeIndex==3">
+  <aot-tree-display-3></aot-tree-display-3>
+</div>

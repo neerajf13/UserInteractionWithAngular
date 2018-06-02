@@ -1,0 +1,13 @@
+<div class="row">
+  <div class="col-xs-5">
+    <a class="btn btn-success">Try me</a>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-6">
+    <ul class="list-group">
+      <aot-tree-item *ngFor="let tree of trees; let i=index" [tree]="tree" [treeId]="i"></aot-tree-item>
+    </ul>
+  </div>
+</div>
+
